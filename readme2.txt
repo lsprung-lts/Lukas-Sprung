@@ -1,1 +1,0 @@
-Seyyid Tiryaki
