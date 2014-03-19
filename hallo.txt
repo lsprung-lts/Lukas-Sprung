@@ -2,4 +2,9 @@ Lukas Sprung 3CHIT/TGM
 Rupert Neppl 3CHIT/TGM
 Dominik Strasser 3CHIT/TGM
 Seyyid Tiryaki 3CHIT/TGM
+<<<<<<< HEAD
 jojojojojojojoj
+=======
+
+abc by Yunus
+>>>>>>> 21cc3c2bf05268d919d6d08fb0b4df77271d483d
