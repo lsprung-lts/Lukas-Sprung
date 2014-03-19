@@ -1,5 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
+//Veraenderung mal schauen
 /**
  * Im SnakePanel wird die Schlange bearbeitet(es wird geschaut ob das Futter gegessen wurde, wenn ja wird ein Element hinzugefügt) und gezeichnet.
  * Mit einer If Anweisung wird außerdem geschaut ob man verloren hat, wenn ja dann wird die Schlange rot und ein Timer wird gesetzt 
