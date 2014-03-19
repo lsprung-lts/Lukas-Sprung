@@ -1,3 +1,4 @@
+//Aenderung Yunus
 import java.awt.*;
 import javax.swing.*;
 /**
@@ -15,6 +16,7 @@ public class SnakePanel extends JPanel{
 	int erstes = 1;
 	JLabel verlLabel;
 	int k = 0;
+	int tester = 0;
 	verloren ver;
 	public SnakePanel(SnakeModel m) {
 		this.m = m;
