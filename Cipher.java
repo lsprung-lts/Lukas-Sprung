@@ -1,3 +1,4 @@
+package sprung.cipher;
 
 public interface Cipher {
 	public String encrypt(String text);

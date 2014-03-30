@@ -1,3 +1,4 @@
+package sprung.cipher;
 import javax.swing.JOptionPane;
 
 /**
