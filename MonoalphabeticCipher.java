@@ -3,8 +3,8 @@ import java.awt.List;
 
 public class MonoalphabeticCipher implements Cipher{
 	private String secreteAlphabet;
-	private static final char[] standartal = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-	// soll als Substitutionsschlüssel genutzt werden
+	private static final char[] standartal = "abcdefghijklmnopqrstuvwxyzäöüß".toCharArray();
+	// soll als Substitutionsschlüssel genutzt werden ^
  
 
 	/**
@@ -17,12 +17,6 @@ public class MonoalphabeticCipher implements Cipher{
 	 * Zeichen die NICHT im Substitutionsschlüssel vorhanden sind WERDEn 1:1 übernommen
 	 */
 	
-//	public void setSecretAlphabet(String neu) {
-//		secreteAlphabet = neu;
-//	}
-	protected void setSecretAlphabet(String neu) {
-		secreteAlphabet = neu;
-	}
 	public String encrypt(String text) {
 		text = text.toLowerCase();
 		String encr = "";
@@ -57,9 +51,9 @@ public class MonoalphabeticCipher implements Cipher{
 	public MonoalphabeticCipher() {
 		
 	}
-	//Gibt das Geheimalphabet zurück
+	//Gibt das Geheimalphabet zurüc
 	public String getSecretAlphabet() {
-		return null;
+		return secreteAlphabet;
 	}
 	
 	/**
@@ -67,8 +61,7 @@ public class MonoalphabeticCipher implements Cipher{
 	 * sprich den Substitutionsschlüssel zu ändern.
 	 * @return
 	 */
-	protected String setSecretAlphabet() {
-		return null;
-		
+	protected void setSecretAlphabet(String secreteAlphabet) {
+		this.secreteAlphabet = secreteAlphabet;
 	}
 }
